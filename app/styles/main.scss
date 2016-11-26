@@ -1,0 +1,100 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  background-color: black;
+  color: yellow;
+}
+
+.w0, .w1, .w2, .w3, .w4, .w5, .w6, .w7, .w8, .w9, .w10, .w11 {
+  color: white;
+}
+
+#warped {position: relative; display: block;}
+
+#warped>span[class^=w]:nth-of-type(n+0){display:block; position:absolute;
+transform-origin:50% 100%; }
+
+#warped span{font-family:Cloister Black;font-size:78px;font-weight:regular;font-style:normal;
+line-height:0.65; white-space:pre; overflow:visible; padding:0px;}
+
+#warped .w0 { transform: rotate(-7.86rad); width: 52px; height: 50px;
+left: 106px; top: 500.79px;}
+
+#warped .w1 { transform: rotate(-7.86rad); width: 54px; height: 50px;
+left: 105.1px; top: 443.41px;}
+
+#warped .w2 { transform: rotate(-7.85rad); width: 52px; height: 50px;
+left: 106.35px; top: 385.45px;}
+
+#warped .w3 { transform: rotate(-7.85rad); width: 51px; height: 50px;
+left: 107.19px; top: 328.32px;}
+
+#warped .w4 { transform: rotate(-7.85rad); width: 52px; height: 50px;
+left: 107.08px; top: 272.96px;}
+
+#warped .w5 { transform: rotate(-7.85rad); width: 62px; height: 50px;
+left: 102.58px; top: 209.62px;}
+
+#warped .w6 { transform: rotate(-7.85rad); width: 49px; height: 50px;
+left: 109.64px; top: 149.12px;}
+
+#warped .w7 { transform: rotate(-7.85rad); width: 61px; height: 50px;
+left: 104.25px; top: 89.9px;}
+
+#warped .w8 { transform: rotate(-7.84rad); width: 52px; height: 50px;
+left: 109.5px; top: 28.69px;}
+
+#warped .w9 { transform: rotate(-4.73rad); width: 52px; height: 50px;
+left: 110.83px; top: -17.7px;}
+
+#warped .w10 { transform: rotate(-4.83rad); width: 54px; height: 50px;
+left: 110.96px; top: 42.72px;}
+
+#warped .w11 { transform: rotate(-5.18rad); width: 52px; height: 50px;
+left: 128.52px; top: 98.38px;}
+
+#warped .w12 { transform: rotate(-5.48rad); width: 51px; height: 50px;
+left: 161.57px; top: 144.03px;}
+
+#warped .w13 { transform: rotate(-5.72rad); width: 52px; height: 50px;
+left: 204.39px; top: 179.26px;}
+
+#warped .w14 { transform: rotate(-5.95rad); width: 62px; height: 50px;
+left: 256.23px; top: 206.52px;}
+
+#warped .w15 { transform: rotate(-6.16rad); width: 49px; height: 50px;
+left: 320.94px; top: 220.16px;}
+
+#warped .w16 { transform: rotate(-6.37rad); width: 61px; height: 50px;
+left: 374.34px; top: 221.61px;}
+
+#warped .w17 { transform: rotate(-6.6rad); width: 52px; height: 50px;
+left: 439.05px; top: 209.68px;}
+
+#warped .w18 { transform: rotate(-6.85rad); width: 61px; height: 50px;
+left: 490.11px; top: 183.68px;}
+
+#warped .w19 { transform: rotate(-7.12rad); width: 59px; height: 50px;
+left: 541.49px; top: 141.22px;}
+
+#warped .w20 { transform: rotate(-7.36rad); width: 61px; height: 50px;
+left: 577.59px; top: 88.67px;}
+
+#svg-image-blur { 
+  width: 150px; 
+  height: 151px; 
+  margin-top: 269px;
+  margin-left: 300px;
+}
+
